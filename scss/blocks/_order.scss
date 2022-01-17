@@ -1,0 +1,239 @@
+.order {
+    margin-bottom: 168px;
+}
+
+.order__left {
+    width: 255px;
+}
+
+.order__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 85px;
+}
+
+.order__left-inner {
+    border-bottom:1px solid #83888F;
+    // opacity: 0.25;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+}
+
+.order__left-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.order__left-number {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    opacity: 0.8;
+    transition: color 0.5s ease;
+    
+    &:hover {
+        cursor: pointer;
+        color: #0E8784;
+        opacity: 1;
+    }
+}
+
+.order__left-number--active {
+    opacity: 1;
+    color: #0E8784;
+}
+
+.order__left-title {
+    margin: 0;
+    margin-left: 25px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    opacity: 0.8;
+    transition: color 0.5s ease;
+    
+    &:hover {
+        cursor: pointer;
+        color: #333D4B;
+        opacity: 1;
+    }
+}
+
+.order__left-title--active {
+    opacity: 1;
+    color: #333D4B;
+}
+
+.order__right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+}
+
+.order__box-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 730px;
+    margin-bottom: 56px;
+}
+
+.order__box-inner-title {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F; 
+}
+
+.order__box-inner-vector {
+    fill:#66D2CF;
+}
+
+.order__box-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 88px;
+}
+
+.order__box-label {
+    width: 228px;
+    height: 250px;
+}
+
+.order__box-view {
+    display: block;
+    width: 228px;
+    height: 250px;
+    padding: 32px 28px 84px;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        cursor: pointer;
+        background-color: #FDD6BA;
+    }
+}
+
+.order__box-input:checked ~ .order__box-view {
+    cursor: cell;
+    background-color: #0E8784;
+    color: #FEFCF7;
+}
+
+.order__box-title {
+    display: block;
+    margin-bottom: 24px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333d4b;
+    transition: all 0.3s ease;
+}
+
+.order__box-input:checked ~ .order__box-view > .order__box-title {
+    color: #FEFCF7;
+}
+
+.order__box-text {
+    display: block;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    transition: all 0.3s ease;
+}
+
+.order__box-input:checked ~ .order__box-view > .order__box-text {
+    color: #FEFCF7;
+}
+
+.products-obtained {
+    width: 730px;
+    margin-bottom: 40px;
+    padding: 27px 64px;
+    background-color: $main-bg-color;
+    border-radius: 10px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.products-obtained__text {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.products-obtained__bg-color {
+    color: #0E8684;
+}
+
+.submit-button {
+    display: block;
+    margin-left: auto;
+    padding: 15px 35px;
+    background-color: #0E8784;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    transition: all 0.3s ease;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #66D2CF;
+    }
+
+    &:active {
+        cursor: pointer;
+        background-color: #E2DEDB;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
